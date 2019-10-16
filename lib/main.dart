@@ -17,7 +17,7 @@ void main() {
         onPressed: () {},
         child: Icon(
           Icons.add_a_photo,
-          color: Colors.white,
+          color: Colors.blueAccent,
         ),
       ),
     ),
