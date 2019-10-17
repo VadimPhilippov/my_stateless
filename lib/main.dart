@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+
 void main() {
   var app = MaterialApp(
     title: 'Flutter App',
@@ -12,6 +14,22 @@ void main() {
       appBar: AppBar(
         title: Text('Flutter'),
         backgroundColor: Colors.indigo,
+      ),
+      body: Center(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('I am text line one'),
+            Text('I am line two'),
+            RaisedButton(
+              onPressed: () {},
+              child: Text('Login'),
+              color: Colors.orange,
+              splashColor: Colors.blue,
+            ),
+          ],
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
